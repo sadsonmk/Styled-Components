@@ -5,13 +5,15 @@ import { Container } from './components/styles/Container.styled';
 import GlobalStyle from './components/styles/Global';
 import content from './content'
 import Card from './components/Card';
+import Footer from './components/Footer';
+
 
 
 const theme = {
     colors: {
         header: '#ebfbff',
         body: '#fff',
-        footer: '#00333',
+        footer: '#ebfbff',
     },
 }
 
@@ -28,6 +30,7 @@ function App() {
                         <Card key={index} item={item} />
                     ))}
                 </Container>
+                <Footer />
 
             </>
         </ThemeProvider>

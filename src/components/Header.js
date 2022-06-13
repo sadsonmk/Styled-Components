@@ -11,15 +11,15 @@ const Header = () => {
       <Container>
         <Nav>
           <Logo src='./images/logo.svg' />
-          <Button>Try it free</Button>
+          <Button>Let's talk</Button>
         </Nav>
         <Flex>
           <FlexContainer>
-            <h1>Be our guest at our company</h1><br /><br />
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae quisquam recusandae aut voluptatibus iure qui eaque nam nemo totam provident est ratione modi eos perspiciatis harum doloribus incidunt, dolore minima.</p><br /><br />
+            <h1>Web Development</h1><br /><br />
+            <p>Check out our services and make inquiries with us. We can deliver on your requirements. Do not hesitate to contact us, we exist because of you.</p><br /><br />
 
 
-            <Button bg='#ff0099' color='#fff' >Get started for free</Button>
+            <Button bg='#ff0099' color='#fff' >Get your quotations here</Button>
 
           </FlexContainer>
           <Image src="./images/comp.svg" />

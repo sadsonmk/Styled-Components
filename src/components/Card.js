@@ -5,7 +5,7 @@ const Card = ({ item: { id, title, body, image } }) => {
   return (
     <StyledCard layout={id % 2 === 0 && 'row-reverse'}>
       <div>
-        <h2>{title}</h2>
+        <h2>{title}</h2><br />
         <p>{body}</p>
 
       </div>
